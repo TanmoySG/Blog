@@ -11,7 +11,6 @@ PC Preview             |  Mobile Preview
 :-------------------------:|:-------------------------:
 ![Blog-PC](https://github.com/TanmoySG/Blog/blob/master/Screenshots/Blogs-PC.jpg) | ![Blog-PC](https://github.com/TanmoySG/Blog/blob/master/Screenshots/Blogs-Mobile.jpg)
 
----
 
 ### Articles
 
@@ -19,7 +18,6 @@ PC Preview             |  Mobile Preview
 :-------------------------:|:-------------------------:
 ![Article-PC](https://github.com/TanmoySG/Blog/blob/master/Screenshots/Article-PC-Preview.jpg) | ![Article-PC](https://github.com/TanmoySG/Blog/blob/master/Screenshots/Article-Mobile-Preview.jpg)
 
----
 
 ### Control Panel
 

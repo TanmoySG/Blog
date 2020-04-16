@@ -1,0 +1,150 @@
+.article{
+    margin-top: 5vmin;
+}
+
+.article-category{
+    margin-top: 5px;
+    padding:8px; 
+    border-radius: 2px; 
+    background-color: #eafbff; 
+    border: none; 
+    border-left: solid 2px #0B7285; 
+    color: #0B7285; 
+    font-size: 25px;
+}
+
+.article-header{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 6vmax;
+    padding-top: 10px;
+    color: #0B7285;
+    line-height: 1;
+}
+
+.article-details{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.5vmax;
+    color: #8a8a8a;
+    padding-top: 10px;
+}
+
+.article-body{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 1.5vmax;
+    font-weight: 200;
+    line-height: 1.5; 
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: justify;
+}
+
+.article-author{
+    margin-top: 2vmax; 
+    margin-bottom: 2.5vmax;
+}
+
+.article-author-name{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 3vmax;
+    color: #0B7285; 
+    margin-bottom: 0px;
+}
+
+.article-author-about{
+    margin-top: 0px;
+    font-size: 1.5vmax;
+    text-align: justify;
+}
+
+.article-author-contact{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 2vmax;
+    color: black; 
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .article-header{
+        font-size: 7vmax;
+        padding-top: 15px;
+    }
+    
+    .article-details{
+        font-size: 1.5vmax;
+    }
+    
+    .article-body{
+        font-size:1.25rem;
+    }
+    
+    .article-author-name{
+        font-size: 6vmax;
+    }
+    
+    .article-author-about{
+        font-size: 3.5vmax;
+    }
+    
+    .article-author-contact{
+        font-size: 4vmax;
+    }
+    
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .article-header{
+        font-size: 7vmax;
+        padding-top: 15px;
+         }
+    
+    .article-details{
+        font-size: 1rem;
+    }
+    
+    .article-body{
+        font-size:1.25rem;
+    }
+    
+    .article-author-name{
+        font-size: 6vmax;
+    }
+    
+    .article-author-about{
+        font-size: 3.5vmax;
+    }
+    
+    .article-author-contact{
+        font-size: 4vmax;
+    }
+
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .article-header{
+        font-size: 7vmax;
+        padding-top: 15px;
+    }
+
+    .article-details{
+        font-size: 1rem;
+    }
+    
+    .article-body{
+        font-size:1.25rem;
+    }
+    
+    .article-author-name{
+        font-size: 6vmax;
+    }
+    
+    .article-author-about{
+        font-size: 3.5vmax;
+    }
+    
+    .article-author-contact{
+        font-size: 4vmax;
+    }
+  }

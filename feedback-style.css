@@ -1,0 +1,262 @@
+body{
+    font-family: Poppins;
+}
+
+
+table, th, td {
+    border: 1px solid #d1d1d1;
+    border-collapse: collapse;
+  }
+
+a:link {
+    text-decoration: none;
+    color:white;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color:white;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color:white;
+  }
+  
+  a:active {
+    text-decoration: none;
+     color:white;
+  }
+
+.header-icon{
+ height: 5vmin;
+ width: 5vmin;
+}
+
+/*.category{
+  padding:5px; 
+  border-radius: 2px; 
+  background-color: #eafbff; 
+  border: none; 
+  border-left: solid 2px #0B7285; 
+  color: #0095ff;; 
+  font-size: 15px;
+}*/
+
+.profile-details{
+  font-size: 25px;
+  text-align: justify;  
+  line-height: 1.5;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  
+}
+
+.intro{
+  font-size: 3vmax;
+}
+
+.name{
+  font-size: 5vmax; 
+}
+
+.header-illustration{
+  width:50%;  
+}
+
+.website-link{
+  font-size: 25px; 
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .profile-details{
+    font-size: 20px;
+    text-align: justify;  
+    line-height: 1.5;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+  }
+
+  .intro{
+    font-size: 3.5vmax;
+  }
+  
+  .name{
+    font-size: 6vmax; 
+  }
+
+  .header-illustration{
+    width: 50%; 
+    padding-top: 10px;
+    
+  }
+
+  .website-link{
+    font-size: 15px; 
+  }
+  
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .profile-details{
+    font-size: 20px;
+    text-align: justify;  
+    line-height: 1.5;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+  }
+  
+  .intro{
+    font-size: 3.5vmax;
+  }
+  
+  .name{
+    font-size: 6vmax; 
+  }
+  .header-illustration{
+    width: 50%; 
+    padding-top: 10px;
+    
+  }
+
+  .website-link{
+    font-size: 15px; 
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .profile-details{
+    font-size: 20px;
+    text-align: justify;  
+    line-height: 1.5;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+  }
+
+  .intro{
+    font-size: 3.5vmax;
+  }
+  
+  .name{
+    font-size: 6vmax; 
+  }
+
+  .header-illustration{
+    width: 50%; 
+    padding-top: 10px;
+    
+  }
+
+  .website-link{
+    font-size: 15px; 
+  }
+  
+}
+
+.box2 {
+    position: relative;
+    box-shadow: 1px -1px 45px 15px rgba(161, 161, 161, 0.15);
+    background-color:white;
+    padding: 3vmax;
+}
+
+
+  .sb9:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-top-color: white;
+    border-bottom: 0;
+    margin-left: -25px;
+    margin-bottom: -25px;
+ }
+
+
+.header{
+    background-color: solid #f9f9f9;
+    box-shadow: 1px -1px 23px .5px rgba(0,0,0,0.14);
+    text-align: center;
+    font-size: 3.5vmax;
+    padding-top: .5vmax;
+    padding-bottom: .5vmax;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.login-form{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card{
+    /*height: 200px;*/
+    border: solid 1px #35c5cf;
+    background-color: #ffffff;
+    box-shadow:0 6px 15px rgba(36, 37, 38, 0.08);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+    vertical-align: middle ;
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+       
+}
+
+.card:hover{
+  box-shadow: 5px 12px 20px rgba(36, 37, 38, 0.13);
+}
+
+
+.article-header{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 7vmax;
+    color: #9d9d9d;
+    }
+
+.article-details{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.6vmax;
+    color: #8a8a8a;
+}
+
+.article-body{
+  margin-top: 2vmax;
+  margin-bottom: 2vmax;
+  font-size: 1.125rem;
+  font-weight: 200;
+  line-height: 1.8; 
+  font-family: 'Lato', Helvetica, sans-serif;
+  text-align: justify;
+}
+
+.article-author{
+    margin-top: 2vmax; 
+    margin-bottom: 2.5vmax;
+}
+
+.article-author-name{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 3vmax;
+    color: #8a8a8a; 
+    margin-bottom: 0px;
+}
+
+.article-author-about{
+    margin-top: 0px;
+    font-size: 2vmax;
+}
+
+.article-author-contact{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 2vmax;
+    color: #8a8a8a; 
+    margin-bottom: 0px;
+}

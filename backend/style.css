@@ -1,0 +1,118 @@
+body{
+    font-family: Poppins;
+}
+
+.article-card{
+    background-color: #ffffff; box-shadow: 1px -1px 23px .5px rgba(0,0,0,0.14); border-radius: 10px; font-size: 30px; padding: 30px; font-family: 'Montserrat';
+}
+
+.article-card-title{
+    font-family: 'Montserrat';
+    font-size: 3.5vmax;
+    color: #9d9d9d;
+}
+
+table, th, td {
+    border: 1px solid #d1d1d1;
+    border-collapse: collapse;
+  }
+
+a:link {
+    text-decoration: none;
+    color:white;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color:white;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color:white;
+  }
+  
+  a:active {
+    text-decoration: none;
+     color:white;
+  }
+
+.header-icon{
+ height: 5vmin;
+ width: 5vmin;
+}
+
+.header{
+    background-color: solid #f9f9f9;
+    box-shadow: 1px -1px 23px .5px rgba(0,0,0,0.14);
+    text-align: center;
+    font-size: 3.5vmax;
+    padding-top: .5vmax;
+    padding-bottom: .5vmax;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.login-form{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card{
+    /*height: 200px;*/
+    background-color: #ffffff;
+    box-shadow: 1px -1px 23px .5px rgba(0,0,0,0.14);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+    font-family: 'Red Hat Display', sans-serif;
+    vertical-align: middle ;
+       
+}
+
+.article{
+    margin-top: 5vmin;
+}
+
+.article-header{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 7vmax;
+    color: #9d9d9d;
+    }
+
+.article-details{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.6vmax;
+    color: #8a8a8a;
+}
+
+.article-body{
+    margin-top: 2vmax;
+    margin-bottom: 2vmax;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: justify;
+}
+
+.article-author{
+    margin-top: 2vmax; 
+    margin-bottom: 2.5vmax;
+}
+
+.article-author-name{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 3vmax;
+    color: #8a8a8a; 
+    margin-bottom: 0px;
+}
+
+.article-author-about{
+    margin-top: 0px;
+    font-size: 2vmax;
+}
+
+.article-author-contact{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 2vmax;
+    color: #8a8a8a; 
+    margin-bottom: 0px;
+}

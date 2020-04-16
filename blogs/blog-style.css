@@ -1,0 +1,140 @@
+
+a:link {
+    text-decoration: none;
+    color:white;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color:white;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color:white;
+  }
+  
+  a:active {
+    text-decoration: none;
+     color:white;
+  }
+
+.header-icon{
+ height: 5vmin;
+ width: 5vmin;
+}
+
+.header-illustration{
+  width: 75px; 
+  font-size: 50px;
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .profile-details{
+    font-size: 20px;
+    text-align: justify;  
+    line-height: 1.5;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+  }
+
+  .intro{
+    font-size: 3.5vmax;
+  }
+  
+  .name{
+    font-size: 6vmax; 
+  }
+
+  .header-illustration{
+    width: 50px; 
+   
+  }
+
+  .website-link{
+    font-size: 15px; 
+  }
+  
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .profile-details{
+    font-size: 20px;
+    text-align: justify;  
+    line-height: 1.5;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+  }
+  
+  .intro{
+    font-size: 3.5vmax;
+  }
+  
+  .name{
+    font-size: 6vmax; 
+  }
+ 
+  .header-illustration{
+    width: 50px; 
+   
+  }
+  .website-link{
+    font-size: 15px; 
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .profile-details{
+    font-size: 20px;
+    text-align: justify;  
+    line-height: 1.5;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+  }
+
+  .intro{
+    font-size: 3.5vmax;
+  }
+  
+  .name{
+    font-size: 6vmax; 
+  }
+
+  .header-illustration{
+    width: 50px; 
+   
+  }
+
+  .website-link{
+    font-size: 15px; 
+  }
+  
+}
+
+.box2 {
+  position: relative;
+  box-shadow: 1px -1px 45px 15px rgba(161, 161, 161, 0.15);
+  background-color:white;
+  padding: 15px;
+}
+
+.sb9:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 25px solid transparent;
+  border-top-color: white;
+  border-bottom: 0;
+  margin-left: -25px;
+  margin-bottom: -25px;
+}
+
+

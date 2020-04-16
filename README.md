@@ -6,6 +6,8 @@ The blog is built on HTML/CSS for Frontend and PHP for Backend with MySQL Databa
 
 
 ### Blog Home
+
+Responsive and Mobile friendly Home where all articles are displayed.
  
 PC Preview             |  Mobile Preview
 :-------------------------:|:-------------------------:
@@ -13,6 +15,8 @@ PC Preview             |  Mobile Preview
 
 
 ### Articles
+
+Responsive article that is easy to read.
 
 PC Preview             |  Mobile Preview
 :-------------------------:|:-------------------------:

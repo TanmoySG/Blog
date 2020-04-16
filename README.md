@@ -21,7 +21,9 @@ PC Preview             |  Mobile Preview
 
 ---
 
-A custom made CMS is used for adding, deleting and editing articles on the blog. 
+### Control Panel
+
+A custom made CMS is used for adding, deleting and editing articles on the blog. It also displays number of view and subscribers.
 
 ![Article-PC](https://github.com/TanmoySG/Blog/blob/master/Screenshots/Control-Panel-Home.jpg)
 
